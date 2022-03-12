@@ -1,18 +1,16 @@
+#include <stdio.h>
+
 #include <stdlib.h>
 
 #include <time.h>
 
-#include <stdio.h>
-
-
-
 /**
 
- * main - assigns a random number to int n everytime
+ * main - Determines if a number is positive, negative or zero
 
- * it executes, and prints it
+ *
 
- * Return: Always 0 (Success)
+ * Return: Alwasy 0 (success)
 
  */
 
@@ -30,16 +28,30 @@ int main(void)
 
 	if (n > 0)
 
+	{
+
 		printf("%d is positive\n", n);
+
+	}
 
 	else if (n == 0)
 
+	{
+
 		printf("%d is zero\n", n);
 
-	else if (n < 0)
+	}
+
+	else
+
+	{
 
 		printf("%d is negative\n", n);
+
+	}
 
 	return (0);
 
 }
+
+
